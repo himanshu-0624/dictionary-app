@@ -8,7 +8,9 @@ const renderResponse1 = (res) => {
     }
     // In case res comes back as a blank array
     if(!res.length){
+
       responseField1.innerHTML = "<div class=\"alert alert-danger\" role=\"alert\"><p>Try again!</p><p>There were no suggestions found!</p></div>";
+    
       return;
     }
   
