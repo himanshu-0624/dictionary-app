@@ -36,6 +36,9 @@ const displaySuggestions = (event) => {
   getSuggestions();
 };
 
+// submit.addEventListener('click', ()=>{
+//   $("#submit").hide();
+// });
 submit.addEventListener('click', displaySuggestions);
 
 
